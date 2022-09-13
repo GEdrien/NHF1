@@ -8,8 +8,9 @@ public class Main {
     }
 
     static void my_method(){
+        //Upgraded to 12 side dice
         Random my_random = new Random();
-        int x = my_random.nextInt(6)+1;
+        int x = my_random.nextInt(12)+1;
         System.out.println("Dice roll: " +  x);
     }
 }
